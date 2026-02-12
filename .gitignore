@@ -64,3 +64,4 @@ pnpm-debug.log*
 .parcel-cache/
 .turbo/
 *.local
+README-initial.md
