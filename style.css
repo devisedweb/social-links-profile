@@ -75,12 +75,37 @@ ul {
 }
 
 li {
-  padding: 12px;
   border-radius: 8px;
   background-color: #333333;
 }
 
 li a {
+  display: block;
+  font-weight: bold;
   color: white;
+  padding: 12px;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 786px) {
+  .card {
+    padding: 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .card {
+    padding: 40px;
+  }
+
+  li a {
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+  }
+
+  li a:hover {
+    color: #333333;
+    background-color: #c4f82a;
+  }
 }
